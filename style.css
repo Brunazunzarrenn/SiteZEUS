@@ -256,7 +256,7 @@ section .title::after{
     object-fit: cover;
     border-radius: 6px;
 }
-/*  sessão serviços */
+/*  sessão parceiros */
 .services, .teams{
     background: #111;
     color: #fff;
@@ -520,7 +520,7 @@ footer span a:hover{
 }
 
 
-/*  responsivo  */
+/*  responsivo pra celular  */
 @media (max-width: 1300px){
     .navbar .max-width{
         margin-left: 0;
