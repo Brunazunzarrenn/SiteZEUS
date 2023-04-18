@@ -1,4 +1,8 @@
 $(document).ready(function(){
+    $('.menu-btn ion-icon').click(function(){
+$('.navbar .menu').toggleClass("active");
+$('.menu-btn i').toggleClass("active");
+});
     $(window).scroll(function(){
         if(this.scrollY > 20){
             $('.navbar').addClass("sticky");
